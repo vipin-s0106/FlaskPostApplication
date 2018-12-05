@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block body %}
+<hr>
+<hr>
+<hr>
+<div class=artile-detail>
+<h3>Article ID : {{ article[0] }}</h3>
+<p> Written by {{article[2]}} on {{article[4]}}</p>
+<hr>
+<div>{{article[3] | safe}}</div>
+</div>
+{% endblock %}

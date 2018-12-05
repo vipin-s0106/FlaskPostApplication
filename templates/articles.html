@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block body %}
+<hr>
+<hr>
+<h1>Articles</h1>
+<hr>
+{% for article in articles %}
+	<div class="articles">
+	<ul class = "list-groups">
+	<li class="list-groups-items" style="list-style-type:none"><a href="article/{{article[0]}}">{{ article[1] }}</a></li>
+	<hr>
+	</ul>
+	</div>
+{% endfor %}
+{% endblock %}
