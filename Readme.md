@@ -8,21 +8,22 @@ Eg. pip install library_name
 - numpy
 - pymysql
 
-*****************
+
 Install MySql Server
 Link - https://dev.mysql.com/downloads/mysql/
 
 
-============================================================================================
-*****************
+
+#### Database Settings
+
 -Create Database IN MYSQL
 database name : myflaskapp
 change hostname,username,password,databasename in each views Function
 
 Following Tables Should be Created :
-drop table USERS;
-drop table ARTICLES;
-commit;
+> drop table USERS; \
+> drop table ARTICLES; \
+> commit;
 
 
 ## USERS TABLE CREATION QUERIES
@@ -40,18 +41,29 @@ REGISTER_DATE TIMESTAMP DEFAULT current_timestamp
 
 **ARTICLES TABLE CREATION QUERIES**
 
+```sql
 CREATE TABLE ARTICLES (ID INT(11) PRIMARY KEY auto_increment,
 TITLE VARCHAR(255),
 AUTHOR VARCHAR(255),
 BODY TEXT,
 CREATE_DATE TIMESTAMP DEFAULT current_timestamp
 );
+```sql
 
-commit;
-
-============================================================================================
-
+> commit;
 
 
+### Snipptes
+
+![Screenshot](ApplicationSnniptes/1.PNG)
+![Screenshot](ApplicationSnniptes/2.PNG)
+![Screenshot](ApplicationSnniptes/3.PNG)
+![Screenshot](ApplicationSnniptes/4.PNG)
+![Screenshot](ApplicationSnniptes/5.PNG)
+![Screenshot](ApplicationSnniptes/6.PNG)
+![Screenshot](ApplicationSnniptes/7.PNG)
+![Screenshot](ApplicationSnniptes/8.PNG)
+![Screenshot](ApplicationSnniptes/9.PNG)
+![Screenshot](ApplicationSnniptes/10.PNG)
 
 
