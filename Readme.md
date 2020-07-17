@@ -48,7 +48,7 @@ AUTHOR VARCHAR(255),
 BODY TEXT,
 CREATE_DATE TIMESTAMP DEFAULT current_timestamp
 );
-```sql
+```
 
 > commit;
 
