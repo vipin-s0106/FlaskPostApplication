@@ -1,7 +1,6 @@
-Instruction to run the application :
+## Instruction to run the application :
 
-*****************
-Install Following Python Libraries using pip :
+#### Install Following Python Libraries using pip :
 Eg. pip install library_name
 - flask
 - flask_wtf
@@ -26,8 +25,9 @@ drop table ARTICLES;
 commit;
 
 
-**USERS TABLE CREATION QUERIES**
+## USERS TABLE CREATION QUERIES
 
+```sql
 CREATE TABLE USERS (ID INTEGER primary key auto_increment,
 NAME VARCHAR(100),
 EMAIL VARCHAR(100),
@@ -35,7 +35,7 @@ USERNAME VARCHAR(30),
 PASSWORD VARCHAR(30),
 REGISTER_DATE TIMESTAMP DEFAULT current_timestamp
 );
-
+```
 
 
 **ARTICLES TABLE CREATION QUERIES**
